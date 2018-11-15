@@ -1,35 +1,17 @@
-#card,
+#imageBox,
 #controlPanel {
-    /*puts the card and control panel side by side*/
+    /*puts the image box and control panel side by side*/
     display: inline-block;
 
-    /*makes the card and control panel aligned at the top*/
+    /*makes the image box and control panel aligned at the top*/
     vertical-align: top;
 }
 
-#card {
-    /*gives dimensions and a border to the card*/
+#imageBox {
+    /*gives dimensions to the image box*/
     width: 300px;
     height: 300px;
-    border: 3px solid black;
 
-    /*puts empty space inside the card so that text does not touch the edges*/
-    padding: 30px;
-
-    /*puts empty space to the right of the card to separate it from the control panel*/
+    /*puts empty space to the right of the image box to separate it from the control panel*/
     margin-right: 30px;
-}
-
-#titleParagraph {
-    /*default font size of the card title and should match the value in the slider*/
-    font-size: 20px;
-
-    /*centers the card title within the card*/
-    text-align: center;
-
-    /*removes all empty space around the card title*/
-    margin: 0px;
-
-    /*forces the card title to wrap to a new line if a word is too long*/
-    word-wrap: break-word;
 }
