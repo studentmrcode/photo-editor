@@ -2,21 +2,43 @@
 <html>
 
 <head>
-    <title>Mad Libs</title>
+    <title>Card Maker</title>
     <link rel="stylesheet" href="stylesheet.css" type="text/css" />
 </head>
 
 <body>
-    <h1>Mad Libs</h1>
+    <h1>Card Maker</h1>
 
-    <!--text box for the user to type a noun-->
-    <input type="text" placeholder="noun" id="noun" />
+    <!--box to represent the card-->
+    <!--div stands for division and is used to make boxes-->
+    <div id="card">
+        <!--paragraph where the card title will show up-->
+        <p id="titleParagraph"></p>
+    </div>
 
-    <!--button to show the story-->
-    <button id="showStoryButton">Show story</button>
+    <!--box to hold the card editing controls-->
+    <div id="controlPanel">
+        <p>Card color:</p>
 
-    <!--paragraph where the story will show up-->
-    <p id="storyParagraph"></p>
+        <!--button to make the card red-->
+        <button id="redButton">Red</button>
+
+        <p>Card title:</p>
+
+        <!--text box for the user to type the card title-->
+        <input type="text" placeholder="card title" id="titleTextBox">
+
+        <p>Title color:</p>
+
+        <!--color picker for the user to set the color of the card title-->
+        <input type="color" id="titleColor">
+
+        <p>Title font size:</p>
+
+        <!--slider for the user to set the font size of the card title-->
+        <!--the value attribute sets where the slider starts and should match the value in the stylesheet-->
+        <input type="range" min="20" max="100" value="20" id="titleFontSize">
+    </div>
 
     <script type="text/javascript" src="script.js"></script>
 </body>
