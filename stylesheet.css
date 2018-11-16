@@ -1,3 +1,5 @@
+body { font-family: sans-serif; }
+
 #imageBox,
 #controlPanel {
     /*puts the image box and control panel side by side*/
