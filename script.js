@@ -1,9 +1,14 @@
-// Make variables for the sliders.
-// You can name them anything you want, but for simplicity, name them the same as the IDs.
+// Give variables names that describe what they are.
+// Remember, event listeners have two parameters: type of event and function name.
+// Give functions names that would describe the action they are doing.
+// Keep your code organized so that it is easy to understand.
 
 
-// Add event listeners to the sliders.
-// You can name the functions anything you want, but pick something that indicates action.
+// Add code below this line: --------------
+// Section 1: Make a variable for each slider.
 
 
-// Make functions to change the image's width, opacity, and rotation.
+// Section 2: Add event listeners to each slider to do something different.
+
+
+// Section 3: Make separate functions to change the image's width, opacity, and rotation.
