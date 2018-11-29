@@ -1,4 +1,4 @@
-// Section 1: Make separate variables for the three sliders.
+// Section 1: Make separate variables for the image and three sliders.
 // You can name them anything you want, but for simplicity, name them the same as the IDs.
 
 
