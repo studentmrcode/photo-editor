@@ -12,30 +12,20 @@
     <!--box to hold the image-->
     <!--div stands for division and is used to make boxes-->
     <div id="imageBox">
-        <!--image to edit-->
         <!--replace the default image with your own image-->
         <img src="default.png" id="image"></img>
     </div>
 
     <!--box to hold the image editing controls-->
     <div id="controlPanel">
-        <p>Image width:</p>
+        <p>Width:</p>
+        <button id="width100Button">100 pixels</button>
 
-        <!--slider for the user to set the width of the image-->
-        <!--the value attribute sets where the slider starts and should match the actual image width-->
-        <input type="range" min="50" max="300" value="300" id="widthSlider">
+        <p>Opacity:</p>
+        <button id="opacity25Button">25%</button>
 
-        <p>Image opacity:</p>
-
-        <!--slider for the user to set the opacity of the image-->
-        <!--the step attribute specifies how much the slider should move-->
-        <input type="range" min="0" max="1" step="0.01" value="1" id="opacitySlider">
-
-        <p>Image rotation:</p>
-
-        <!--slider for the user to set the rotation of the image-->
-        <!--the step attribute specifies how much the slider should move-->
-        <input type="range" min="0" max="1" step="0.01" value="1" id="rotationSlider">
+        <p>Rotation:</p>
+        <button id="rotation90Button">90 degrees</button>
     </div>
 
     <script type="text/javascript" src="script.js"></script>
