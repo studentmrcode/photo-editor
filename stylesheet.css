@@ -1,17 +1,13 @@
-#imageBox,
-#controlPanel {
-    /*puts the image box and control panel side by side*/
+#controlPanel,
+#image {
+    /*puts the control panel and image side by side*/
     display: inline-block;
 
-    /*makes the image box and control panel aligned at the top*/
+    /*makes the control panel and image aligned at the top*/
     vertical-align: top;
 }
 
-#imageBox {
-    /*gives dimensions to the image box*/
-    width: 300px;
-    height: 300px;
-
-    /*puts empty space to the right of the image box to separate it from the control panel*/
+#controlPanel {
+    /*puts empty space to the right of the control panel to separate it from the image*/
     margin-right: 30px;
 }
